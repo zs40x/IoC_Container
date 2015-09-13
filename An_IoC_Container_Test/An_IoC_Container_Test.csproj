@@ -50,10 +50,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Support\AClassWithOneDependencyInConstructor.cs" />
+    <Compile Include="Support\Dependency1.cs" />
     <Compile Include="Support\IAnInterface.cs" />
-    <Compile Include="Support\IASimpleClassWithDefaultConstructor.cs" />
+    <Compile Include="Support\ASimpleClassWithDefaultConstructor.cs" />
     <Compile Include="ResolverTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Support\IDependency1.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\An_IoC_Container\An_IoC_Container.csproj">
