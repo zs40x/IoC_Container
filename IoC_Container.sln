@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC_Container", "IoC_Container\IoC_Container.csproj", "{83A5CD46-CFB4-46D8-8C41-79C22595AB21}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC_Container_Application", "IoC_Container\IoC_Container_Application.csproj", "{83A5CD46-CFB4-46D8-8C41-79C22595AB21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vehicles", "Car\Vehicles.csproj", "{E1FED19A-2BA9-4A14-A5AD-96FFC601CE50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "An_IoC_Container", "An_IoC_Container\An_IoC_Container.csproj", "{31F31424-B33D-44D3-8296-1D950CD0B3E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{83A5CD46-CFB4-46D8-8C41-79C22595AB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83A5CD46-CFB4-46D8-8C41-79C22595AB21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83A5CD46-CFB4-46D8-8C41-79C22595AB21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1FED19A-2BA9-4A14-A5AD-96FFC601CE50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1FED19A-2BA9-4A14-A5AD-96FFC601CE50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1FED19A-2BA9-4A14-A5AD-96FFC601CE50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1FED19A-2BA9-4A14-A5AD-96FFC601CE50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31F31424-B33D-44D3-8296-1D950CD0B3E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F31424-B33D-44D3-8296-1D950CD0B3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F31424-B33D-44D3-8296-1D950CD0B3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F31424-B33D-44D3-8296-1D950CD0B3E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
