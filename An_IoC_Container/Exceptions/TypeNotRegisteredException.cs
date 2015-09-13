@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace An_IoC_Container.Exceptions
 {
-    class TypeNotRegisteredException : Exception
+    public class TypeNotRegisteredException : Exception
     {
+        public TypeNotRegisteredException()
+        { }
+
+        public TypeNotRegisteredException(string msg) : base(msg)
+        { }
     }
 }
