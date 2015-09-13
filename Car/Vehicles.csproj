@@ -7,8 +7,8 @@
     <ProjectGuid>{E1FED19A-2BA9-4A14-A5AD-96FFC601CE50}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Car</RootNamespace>
-    <AssemblyName>Car</AssemblyName>
+    <RootNamespace>Vehicles</RootNamespace>
+    <AssemblyName>Vehicles</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Car.cs" />
+    <Compile Include="DieselEngine.cs" />
+    <Compile Include="IEngine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

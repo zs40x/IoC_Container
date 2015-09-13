@@ -1,15 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 
 namespace Vehicles
 {
     public class Car
     {
-        
+        public IEngine Engine { get; private set; }
+
+        public Car(IEngine _engine)
+        {
+            Engine = _engine;
+        }
+
         public void Start()
         {
             Debug.WriteLine("Car.Start()");
