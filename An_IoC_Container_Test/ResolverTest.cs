@@ -22,7 +22,7 @@ namespace An_IoC_Container_Test
         {
             fcut.Register(typeof(IAnInterface), typeof(ASimpleClassWithDefaultConstructor));
 
-            object resolvedInstance = fcut.Resolve(typeof(IAnInterface));
+            object resolvedInstance = fcut.Resolve<IAnInterface>();
 
             Assert.IsNotNull(resolvedInstance);
 

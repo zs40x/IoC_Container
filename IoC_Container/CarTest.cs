@@ -20,7 +20,7 @@ namespace IoC_Container
        
         public void run()
         {
-            Car theCar = (Car)resolver.Resolve(typeof(Car));
+            Car theCar = resolver.Resolve<Car>();
 
             Debug.WriteLine(theCar.Engine.ToString());
         }
